@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--background-color-2);
+  border-radius: 15px;
+  box-shadow: inset 0px -8px 0px 0px #10212a;
+  padding: 24px;
+  width: 100%;
+  align-items: center;
+}
+
+.pick-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: var(--background-color-1);
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.mark-selected,
+.mark-unselected {
+  width: 24px;
+  height: 24px;
+}
+
+.mark-selected path {
+  fill: var(--btn-background-color-1);
+}
+
+.mark-unselected path {
+  fill: var(--background-color-1);
+}

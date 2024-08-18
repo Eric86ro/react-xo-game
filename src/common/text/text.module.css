@@ -1,0 +1,8 @@
+.container {
+    font-family: var(--text-font-family);
+    font-size: var(--text-font-size);
+    letter-spacing: var(--text-letter-spacing);
+    font-weight: var(--text-font-weight);
+    color: var(--text-color);
+
+}

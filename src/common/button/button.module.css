@@ -1,0 +1,63 @@
+
+.container {
+    width: 100%;
+    appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+    font-size: var(--heading-font-size-3);
+    font-weight: var(--heading-font-weight);
+    font-family: var(--heading-font-family);
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+    color: var(--text-color-2);
+    text-wrap: nowrap;
+}
+
+.size-lg {
+    height: 67px;
+    padding: 0 24px;
+    border-radius: 15px;
+}
+
+.size-md {
+    height: 52px;
+    padding: 0 16px;
+    border-radius: 10px;
+}
+
+.variant-primary {
+    background: var(--app-color-3);
+    box-shadow: inset 0px -8px 0px 0px #cc8b13;
+}
+
+.variant-primary:hover {
+    background: var(--app-color-4);
+}
+
+.variant-secondary {
+    background: var(--app-color-1);
+    box-shadow: inset 0px -8px 0px 0px #118c87;
+}
+
+.variant-secondary {
+    background: var(--app-color-2);
+    
+}
+
+.variant-tertiary {
+    background: var(--btn-background-color-1);
+    box-shadow: inset 0px -4px 0px 0px #6b8997;
+}
+
+.variant-tertiary:hover {
+    background: var(--btn-background-color-2);
+}
+
+.variant-quaternary {
+    background: none;
+}
+
+.variant-quaternary:hover {
+    background: var(--btn-background-color-1);
+}

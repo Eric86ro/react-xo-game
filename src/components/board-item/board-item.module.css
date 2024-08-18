@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color-2);
+    border-radius: 15px;
+    box-shadow: inset 0px -8px 0px 0px #10212a;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

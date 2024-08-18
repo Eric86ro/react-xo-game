@@ -1,0 +1,24 @@
+.container {
+    font-family: var(--heading-font-family);
+    font-weight: var(--heading-font-weight);
+}
+
+.size-lg {
+    font-size: var(--heading-font-size-1);
+    letter-spacing: var(--heading-letter-spacing-1);
+}
+
+.size-md {
+    font-size: var(--heading-font-size-2);
+    letter-spacing: var(--heading-letter-spacing-2);
+}
+
+.size-sm {
+    font-size: var(--heading-font-size-3);
+    letter-spacing: var(--heading-letter-spacing-3);
+}
+
+.size-xs {
+    font-size: var(--heading-font-size-4);
+    letter-spacing: var(--heading-letter-spacing-4);
+}

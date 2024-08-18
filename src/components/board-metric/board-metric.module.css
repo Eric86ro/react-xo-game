@@ -1,0 +1,13 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 72px;
+}
+
+.container h1 {
+    line-height: var(--heading-font-size-2);
+}
